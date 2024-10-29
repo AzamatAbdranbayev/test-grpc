@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "protos.aza";
+option go_package = "github.com/AzamatAbdranbayev/test-grpc/auth";
 
 service Auth {
   rpc Register (RegisterRequest)  returns (RegistrResponse);
